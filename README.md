@@ -2,13 +2,12 @@
 Projeto desenvolvido para conclusão da disciplina de `Estrutura de Dados` ministrada pelo `Professor Alex Sandro`, docente do Instituto Federal da Paraíba - campus João Pessoa.
 
 ## Resumo
-O **Jogo War** é um jogo de guerra e estratégia em que cada participante deve alcançar um objetivo através de batalhas e posse de novos territórios. É um jogo desenvolvido pela empresa brasileira *Grow*, em tabuleiro. **Esta é uma proposta de implementação deste jogo em _ambiente virtual_**. A ideia é representar a lógica por trás do desenvolvimento do jogo e não o jogo em pleno funcionamento (não inclui recursos gráficos).
+   O **Jogo War** é um jogo de guerra e estratégia em que cada participante deve alcançar um objetivo através de batalhas e posse de novos territórios. É um jogo desenvolvido pela empresa brasileira *Grow*, em tabuleiro. **Esta é uma proposta de implementação deste jogo em _ambiente virtual_**. A ideia é representar a lógica por trás do desenvolvimento do jogo e não o jogo em pleno funcionamento (não inclui recursos gráficos).
 
 ## Regras do Jogo
 
 ### Objetivo do Jogo
-
-No comeco da partida, cada jogador recebe um objetivo dentre 14! Cada objetivo tem relação ou com a posse de territorios ou com a derrota de um oponente. Vence aquele que conquistar o seu objetivo primeiro! 
+   No comeco da partida, cada jogador recebe um objetivo dentre 14! Cada objetivo tem relação ou com a posse de territorios ou com a derrota de um oponente. Vence aquele que conquistar o seu objetivo primeiro! 
 
 ### Preparação:
 
@@ -50,13 +49,16 @@ No comeco da partida, cada jogador recebe um objetivo dentre 14! Cada objetivo t
   É uma classe que implementa cada território do mapa do War, acusando o nome `self.__nome`, o continente a que pertence `self.__continente`, a quantidade de exércitos presentes `self.__qtd_exercitos`, o jogador que o contém `self.__dono`, os territórios que lhe fazem fronteira `self.__fronteiras` e uma identificação `self.__id`, **a partir da qual é possível resgatar o objeto Território de forma mais sucinta**. Os métodos implementados são para o retorno e manipulação dessas propriedades. 
 
 ### Classe Mapa
-
+   É uma classe que implementa o Mapa(ou tabuleiro) do jogo. Apresenta apenas um atributo mapa `self.__mapa` cuja estrutura de dados utilizada para representá-lo é um Grafo Não Direcionado. Nesta implementação, cada Vértice do grafo representa um objeto Territorio, cujas fronteiras são construídas através de arestas sem peso. O método responsável por inserir os valores no tabuleiro é `povoar_mapa`.
+   
 ### Classe Jogo
-
+   É a classe responsável por coordenar todo o funcionamento do jogo. Ela é responsável por correlacionar as outras classes a partir de métodos e propriedades que a instanciam, como o atributo `self.__mapa` que recebe um objeto Mapa(), incializado com vértices cuja carga é um objeto Território; e o atributo `self.__jogadores` que armazena em uma lista os jogadores registrados cada um em um objeto Jogador.
+   
 ### Classe Jogador
-
+   Classe que implementa o objeto Jogador, um dos elementos que compõem o jogo eletronico War. O Jogador representa o participante do jogo War, armazenando propriedades básica como o nome, a cor do exercito, o objetivo do jogador e quais territorios ele conquistou!
+   
 ### Arquivos de Menu
-  Responsável por toda a navegação do jogo, o arquivo de Menu funciona como uma biblioteca de funções que representam as telas da aplicação, cujo fluxo de navegação pode ser descrito da seguinte maneira:
+  Responsável por toda a navegação do jogo, o arquivo de Menu funciona como uma biblioteca de funções que representam as telas da aplicação. As telas funcionam a partir de um objeto do tipo Jogo instanciado assim que a `tela_inicial` é chamada no arquivo `mainJogo.py`. Nesse arquivo, apenas essa função é chamada, pois é a partir dela que todas as outras são chamadas, em efeito cascata.
 
 
     Projeto desenvolvido para conclusão da disciplina de Estrutura de Dados ministrada pelo Professor Alex Sandro.
