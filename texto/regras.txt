@@ -1,0 +1,59 @@
+Regras do WAR GAME!    
+
+Bem-vindo, estrategista! Prepare-se para dominar o mundo com suas taticas e estrategias brilhantes! 
+          
+Para isso, eh MUITO importante conhecer como o nosso mundo funciona e quais as melhores formas de alcancar os seus objetivos!
+
+(1) Objetivo do Jogo: 
+
+- No comeco da partida, cada jogador recebe um objetivo dentre 14! Cada objetivo tem relacao ou com a posse de territorios ou com a derrota de um oponente. Vence aquele que conquistar o seu objetivo primeiro! 
+
+(2) Preparacao:
+
+ - Dividir os territorios 
+    >>> No total, sao 42 territorios divididos em 6 continentes. Os territorios serao divididos entre os competidores, de forma que todos recebam a mesma quantidades de cartas ou quase isso. No caso de alguns jogadores ficarem com 1 carta a menos, tera prioridade o competidor a direita da ultima pessoas que recebeu a carta!
+          
+- Escolha Seu Exercito
+    >>> No inicio, cada jogador escolheu um exercito, certo? No comeco da partida, sera distribuida 1 unidade de cada exercito em cada territorio do jogo. Eh a partir desta mapa que o jogo comeca!
+
+(3) Turnos: Vamos a Guerra!
+
+- Cada jogador se revezara em turnos que consistem em tres etapas epicas:
+
+- Receber Tropas
+    >>> Conquiste territorios! Quando for a sua vez de jogar, a quantidade de tropas que voce recebe eh a metade do numero de territorios que voce tem. 
+    
+    >>> Por exemplo, se voce tiver 9 territorios, você ira receber 4 territorios para distribuir no mapa. Ou seja, quanto mais territorios voce tiver, mais tropas recebe no inicio do seu turno!
+
+- Atacar
+    >>> Declare guerra! Escolha um territorio inimigo e "lance os dados". Lembre-se: mais dados, mais chances de vitoria!
+          
+    Mas, como funciona uma disputa?
+
+    >>> O jogador de ataque pode atacar APENAS territorios inimigos que façam fronteira com o seu territorio.
+
+    >>> Na hora de lançar os dados, voce pode atacar com ate 3 dados, a depender da quantidade de exercitos que voce tem no seu territorio. Para atacar com os 3 dados, eh necessario que voce tenha pelo menos 4 exercitos naquele territorio. Se voce tiver 3, pode usar apenas 2 dados, pois deve permanecer 1 exercito de defesa em todo territorio de ataque!
+
+    >>> O mesmo sistema funciona pra defesa, com excecao de que todos os exércitos podem ser usados. Ou seja, no caso de haver 4 ou 3 exercitos, você pode se defender com 3 dados.
+          
+    Logo, quando voce for atacar, e bom ter a maior quantidade de exercitos possiveis no territorio (e preferencialmente ter apenas 1 exercito no territorio de defesa...)!
+
+- Conquista
+    >>> Se voce derrotar todos os inimigos em um territorio, conquiste-o e coloque ate 3 exercitos la!
+          
+- Fortalecer
+    >>> Apos a batalha, mova suas tropas entre territorios fronteiricos, reforcando suas defesas ou se preparando para o proximo ataque. Estrategia eh a chave!
+          
+(4) Vencer o Jogo
+    >>> Elimine todos os adversarios ou complete seu objetivo (se voce estiver jogando com uma missao). O ultimo jogador de pe eh o grande vencedor!
+          
+(5) Dicas de Ouro: 
+
+- Estrategia eh tudo! Planeje seus ataques e proteja seus territorios.
+
+- Aliancas Temporarias
+    >>> As vezes, unir forcas eh a melhor maneira de derrotar um inimigo em comum!
+    
+- E divirta-se! Lembre-se, eh so um jogo (ou nao?).
+
+E entao, pronto para comecar?
