@@ -45,20 +45,12 @@ Projeto desenvolvido para conclusão da disciplina de `Estrutura de Dados` minis
 ## Classes da Aplicação
   Assim como toda aplicação desenvolvida com base no `paradigma OO`, a implementação do jogo seguiu a ideia de `modularização` e `encapsulamento`, onde cada agente ou _entidade_ que compunha a dinâmica do jogo é tratada como _objeto_ e desenvolvida em cima de uma _classe_. A seguir, uma breve descrição dessas classes:
   
-|--------------|-------------------------------------------------------------|
 |    Classe    |                      Descrição                              |
 |--------------|-------------------------------------------------------------|                                           
 |  Territorio  | É uma classe que implementa cada território do mapa do War. |
-|--------------|-------------------------------------------------------------|
 |     Mapa     | É uma classe que implementa o Mapa(ou tabuleiro) do jogo.   |
-|--------------|-------------------------------------------------------------|
-|              | É a classe responsável por coordenar todo o funcionamento   |
-|     Jogo     | do jogo. Ela é responsável por correlacionar as outras      |
-|              | classes a partir de métodos e propriedades que a instanciam.|
-|--------------|-------------------------------------------------------------|
-|    Jogador   | É uma classe que implementa o objeto Jogador que representa | 
-|              | o participante do jogo War.                                 |
-|--------------|-------------------------------------------------------------|
+|     Jogo     | É a classe responsável por coordenar todo o funcionamento do jogo, correlacionando as outras classes a partir de métodos e propriedades que as instanciam. |
+|    Jogador   | É uma classe que implementa o objeto Jogador que representa o participante do jogo War. |
 
 ### Classe Territorio
   É uma classe que implementa cada território do mapa do War, acusando o nome `self.__nome`, o continente a que pertence `self.__continente`, a quantidade de exércitos presentes `self.__qtd_exercitos`, o jogador que o contém `self.__dono`, os territórios que lhe fazem fronteira `self.__fronteiras` e uma identificação `self.__id`, **a partir da qual é possível resgatar o objeto Território de forma mais sucinta**. Os métodos implementados são para o retorno e manipulação dessas propriedades. 
